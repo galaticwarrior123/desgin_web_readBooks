@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="addBook.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="header_container">
+            <ul>
+                <li>
+                    <div class="header_logo">
+                        <img src="logoweb.png" alt="Logo">
+                    </div>
+                </li>
+                <li>
+                    <div class="header_search">
+                        <input type="text" name="search" placeholder="Search...">
+                        <div class="header_search_icon">
+
+                        </div>
+
+                        <div class="header_search_keybox">
+                            <!-- add items -->
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="header_nav">
+                        <ul>
+                            <li><a href="login.html">Đăng nhập</a></li>
+                            <li><a href="register.html">Đăng ký</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="container_addBook_body">
+            <div class="container_addBook_taskbar">
+                <ul>
+                    <li>
+                        <a href="addBook.html"> < Thêm truyện</a>
+                    </li>
+                    <li>
+                        <div class="container_addBook_taskbar_button">
+                            <button class="dark">Hủy</button>
+                            <button class="white">Tiếp theo</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container_addBook_nav">
+                <div class="container_addBook_nav_image">
+                    <div class="image_form">
+                        <span>+ Add image</span>
+                    </div>
+                </div>
+                <div class="container_addBook_nav_form">
+                    <div class="container_addBook_nav_form_box">
+                        <div class="container_addBook_nav_form_box_title">
+                            <div class="container_addBook_nav_form_box_paga">
+                                <span>Chi tiết truyện</span>
+                            </div>
+                        </div>
+                        <div class="container_addBook_nav_form_box_body">
+                            <form action="#">
+                                <div class="container_addBook_nav_form_box_body_item">
+                                    <div class="container_addBook_nav_form_box_body_item_name">
+                                        <span>Tiêu đề</span>
+                                    </div>
+                                    <div class="container_addBook_nav_form_box_body_item_input">
+                                        <input type="text" name="bookName" placeholder="Nhập tiêu đề">
+                                    </div>
+                                </div>
+                                <div class="container_addBook_nav_form_box_body_item">
+                                    <div class="container_addBook_nav_form_box_body_item_name">
+                                        <span>Mô tả</span>
+                                    </div>
+                                    <div class="container_addBook_nav_form_box_body_item_input">
+                                        <textarea name="bookDescription" placeholder="Nhập mô tả truyện"></textarea>
+                                    </div>
+                                </div>
+                                <div class="container_addBook_nav_form_box_body_item select_option">
+                                    <div class="container_addBook_nav_form_box_body_item_name">
+                                        <span>Thể loại</span>
+                                    </div>
+                                    <div class="container_addBook_nav_form_box_body_item_input">
+                                        <select name="bookType" id="bookType">
+                                            <option value="1">Truyện tranh</option>
+                                            <option value="2">Truyện chữ</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
+<script src="addBook.js"></script>
+</html>
