@@ -230,6 +230,7 @@ body{
     height:155px;
     background-color: rgb(246, 247, 247);
     position: relative;
+    
 }
 
 .container_nav_1_listBooks ul{
@@ -241,8 +242,18 @@ body{
 }
 .container_nav_1_listBooks ul li {
     margin: 0 70px;
+    animation: slideLeft_4_6 20s infinite linear;
 }
 
+@keyframes slideLeft_4_6 {
+    0%,10%,100%{
+        transform: translateX(0);
+    }
+    70%, 100% {
+        transform: translateX(-438%);
+    }
+    
+}
 .container_nav_1_listBooks_item{
     height: 150px;
     width:260px;
@@ -455,7 +466,7 @@ body{
 }
 .container_nav_2_seenBooks{
     width:30%;
-    height:450px;
+    height:auto;
     margin-left:20px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px #d3cccc;
@@ -471,7 +482,9 @@ body{
     position: relative;
     top: 10px;
     left: 20px;
+    
 }
+
 .container_nav_2_seenBooks_title span{
     font-size: 20px;
     color: #000;
@@ -486,12 +499,12 @@ body{
     flex-direction: column;
     padding-left:0;
     margin:30px 0 0 20px;
-    overflow-y: scroll;
-    overflow-x: hidden;
     height:auto;
     
 }
-
+.container_nav_2_seenBooks li{
+    overflow: hidden;
+}
 .container_nav_2_seenBooks_item{
     height: 100px;
     width:auto;

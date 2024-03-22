@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="UserPage.css">
+    <link rel="stylesheet" href="UserPage_ChangePassword.css">
+    <link rel="stylesheet" href="UserPage_HistoryBuy.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="header_container">
+            <ul>
+                <li>
+                    <div class="header_logo">
+                        <img src="logoweb.png" alt="Logo">
+                    </div>
+                </li>
+                <li>
+                    <div class="header_search">
+                        <input type="text" name="search" placeholder="Search...">
+                        <div class="header_search_icon">
+
+                        </div>
+
+                        <div class="header_search_keybox">
+                            <!-- add items -->
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="header_nav">
+                        <ul>
+                            <li><a href="login.html">Đăng nhập</a></li>
+                            <li><a href="register.html">Đăng ký</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container_user_page">
+            <div class="container_user_page_body">
+                <div class="container_user_page_body_nav"></div>
+                <div class="container_user_page_body_info">
+                    <div class="container_user_page_body_info_avatar">
+                        <img src="download.png" alt="avatar">
+                    </div>
+                    <div class="container_user_page_body_info_name">
+                        <div class="container_user_page_body_info_name_title">
+                            <span>Name </span>
+                        </div>
+                        <div class="container_user_page_body_info_name_coin">
+                            <span>Số xu: </span>
+                            <a href="#">Nạp xu</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container_user_page_body_function">
+                    <div class="container_user_page_body_function_left">
+                        <ul>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-history"></i>
+                                        <span>Lịch sử nạp</span>
+                                    </button>
+                                </a></li>
+
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-history"></i>
+                                        <span>Lịch sử mua</span>
+                                    </button>
+
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-user"></i>
+                                        <span>Thông tin cá nhân</span>
+                                    </button>
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-book"></i>
+                                        <span>Truyện theo dõi</span>
+                                    </button>
+
+                                </a></li>
+
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-book"></i>
+                                        <span>Truyện đã đăng</span>
+                                    </button>
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fa fa-comment"></i>
+                                        <span>Bình luận</span>
+                                    </button>
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-bell"></i>
+                                        <span>Thông báo</span>
+                                    </button>
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-key"></i>
+                                        <span>Đổi mật khẩu</span>
+                                    </button>
+                                </a></li>
+                            <li><a href="#">
+                                    <button>
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <span>Đăng xuất</span>
+                                    </button>
+                                </a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="container_user_page_body_function_right">
+                        <!-- Update User -->
+                        <div class="container_user_page_body_function_right_box">
+                            <form action="#">
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Username</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Email</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Họ</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Tên</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Giới thiệu</label>
+                                    <textarea name="name" id="name" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <button>Cập nhật</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Change Password -->
+                        <div class="container_user_page_body_function_right_box_change_password">
+                            <form action="#">
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Mật khẩu cũ</label>
+                                    <input type="password" name="name" id="name">
+                                </div>
+
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Mật khẩu mới</label>
+                                    <input type="password" name="name" id="name">
+                                </div>
+
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <label>Nhập lại mật khẩu mới</label>
+                                    <input type="password" name="name" id="name">
+                                </div>
+                                <div class="container_user_page_body_function_right_box_form_item">
+                                    <button>Đổi mật khẩu</button>
+                                </div>
+                            </form>
+                        </div>
+
+
+                        <!-- Notification -->
+                        <div class="container_user_page_body_function_right_box_notification">
+
+                        </div>
+
+
+                        <!-- history BuyBook -->
+                        <div class="container_user_page_body_function_right_box_history_buy">
+                            <ul>
+                                <li>
+                                    <div class="container_user_page_body_function_right_box_history_buy_item">
+                                        
+                                        <div class="container_user_page_body_function_right_box_history_buy_item_info">
+                                            <div class="container_user_page_body_function_right_box_history_buy_item_info_title">
+                                                <span>Truyện</span>
+                                            </div>
+                                            <div class="container_user_page_body_function_right_box_history_buy_item_info_price">
+                                                <span>Giá: </span>
+                                            </div>
+                                            <div class="container_user_page_body_function_right_box_history_buy_item_info_date">
+                                                <span>Ngày mua: </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
